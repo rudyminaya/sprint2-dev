@@ -1,0 +1,17 @@
+.empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.icono {
+    font-size: 5rem;
+    color: #f9b90f;
+    margin-bottom: 20px;
+}
+.empty > p {
+    font-size: 1.2rem;
+    color: #4c4c4c;
+    font-weight: 600;
+}

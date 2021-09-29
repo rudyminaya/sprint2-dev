@@ -1,0 +1,36 @@
+.brand {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.brand > figcaption,
+.brand > p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.brand > figcaption {
+    font-weight: 800;
+    font-size: 2.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.brand > figcaption::after {
+    content: '';
+    width: 20%;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #3aaced;
+    position: absolute;
+    bottom: -25px;
+    margin: 10px auto;
+}
+.brand > p {
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}

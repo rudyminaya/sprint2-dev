@@ -1,0 +1,25 @@
+.contenedor {
+    background: url(/assets/bg-reserva.jpg);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+@media (min-width: 1024px) {
+    .contenedor {
+        height: 500px;
+    }
+}

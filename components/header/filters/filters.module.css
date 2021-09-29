@@ -1,0 +1,84 @@
+.capsula {
+    width: 60%;
+    height: 55px;
+    margin: 30px auto;
+    margin-bottom: 0;
+    background: #ffffff;
+    box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.26);
+    border-radius: 10px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    overflow: hidden;
+}
+.divInput {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid rgba(134, 134, 134, 0.2);
+}
+.divInput > label {
+    position: absolute;
+    left: 10px;
+    color: #f9b90f;
+    font-size: 1rem;
+    pointer-events: none;
+}
+.divInput > select {
+    height: 100%;
+    appearance: none;
+    border: none;
+    background-color: white;
+    padding-left: 30px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #868686;
+    width: 100%;
+}
+
+.divInput > select:focus {
+    outline: none;
+}
+
+.divInput:last-child {
+    border-right: none;
+}
+.labelbt > span {
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #868686;
+    z-index: 2;
+}
+/* .dateInput::-webkit-inner-spin-button,
+.dateInput::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appareance: none;
+} */
+.dateInput {
+    margin-left: 30px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: #868686;
+    position: absolute;
+    bottom: 10px;
+}
+.dateInput:focus {
+    outline: none;
+}
+.labeldate {
+    font-weight: 600;
+    font-size: 14px !important;
+    position: absolute;
+    top: 5px;
+    padding-left: 20px;
+}
+.limpiarFiltros {
+    background-color: #f9b90f;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.summary {
+    padding: 40px 0;
+}
+.summary > h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #18458b;
+    margin-bottom: 10px;
+}
+.summary > p {
+    font-family: 'roboto', sans-serif;
+    color: #c0c0c0;
+}
